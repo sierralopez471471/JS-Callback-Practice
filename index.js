@@ -5,7 +5,7 @@ const character = newImage('assets/green-character/static.gif')
 let direction = null;
 let x = 100;
 let y = 250;
-
+//adding comment to push to new io repo
 function handleDirectionChange(direction){
     if(direction === null){
         character.src = 'assets/green-character/static.gif'
